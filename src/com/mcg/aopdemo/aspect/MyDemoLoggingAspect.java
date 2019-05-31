@@ -12,9 +12,15 @@ public class MyDemoLoggingAspect {
 
     // let's start with an @Before advice
 
+    //#################################################################################
+    // Asagida yapilan ornekler pointcut expressions olarak geciyor.
+    //#################################################################################
+
+
     //@Before("execution(public void addAccount())") // all addAccount method
     //@Before("execution(public void com.mcg.aopdemo.dao.AccountDAO.addAccount())") // only in package method
-    @Before("execution(public void add*())") // start with add methods
+    //@Before("execution(public void add*())") // start with add methods
+    @Before("execution(* add*())") // any return type start with add
     public void beforeAddAccountAdvice(){
 
         System.out.println("======>>> Executing @Before advice on addAccount()");
