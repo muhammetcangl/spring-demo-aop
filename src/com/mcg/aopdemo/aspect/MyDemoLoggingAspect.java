@@ -20,7 +20,10 @@ public class MyDemoLoggingAspect {
     //@Before("execution(public void addAccount())") // all addAccount method
     //@Before("execution(public void com.mcg.aopdemo.dao.AccountDAO.addAccount())") // only in package method
     //@Before("execution(public void add*())") // start with add methods
-    @Before("execution(* add*())") // any return type start with add
+    //@Before("execution(* add*())") // any return type start with add
+    //@Before("execution(* add*(com.mcg.aopdemo.Account))") // any return type start with add and in param type must be matched.
+    //@Before("execution(* add*(Account))") // NOT WORK because parameter must use fully qualified classname.
+    @Before("execution(* add*(com.mcg.aopdemo.Account))") // any return type start with add and in param type must be matched.
     public void beforeAddAccountAdvice(){
 
         System.out.println("======>>> Executing @Before advice on addAccount()");
