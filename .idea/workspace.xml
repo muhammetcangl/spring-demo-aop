@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d6cecf6-24a2-4d29-81d8-260aec11f6c7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/mcg/aopdemo/Account.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/mcg/aopdemo/MainDemoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mcg/aopdemo/MainDemoApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/mcg/aopdemo/aspect/MyDemoLoggingAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mcg/aopdemo/aspect/MyDemoLoggingAspect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/mcg/aopdemo/dao/AccountDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mcg/aopdemo/dao/AccountDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mcg/aopdemo/dao/MembershipDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mcg/aopdemo/dao/MembershipDAO.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mcg/aopdemo/dao/AccountDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+            <state relative-caret-position="285">
+              <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -44,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/mcg/aopdemo/MainDemoApp.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="262">
-              <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+              <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -59,8 +59,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mcg/aopdemo/aspect/MyDemoLoggingAspect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="14" column="69" selection-start-line="14" selection-start-column="69" selection-end-line="14" selection-end-column="69" />
+            <state relative-caret-position="213">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,8 +89,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mcg/aopdemo/dao/MembershipDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="240">
+              <caret line="16" column="68" selection-start-line="16" selection-start-column="68" selection-end-line="16" selection-end-column="68" />
             </state>
           </provider>
         </entry>
@@ -130,11 +130,11 @@
         <option value="$PROJECT_DIR$/src/com/mcg/springdemo/SwimJavaConfigDemoApp.java" />
         <option value="$PROJECT_DIR$/src/com/mcg/aopdemo/dao/DemoConfig.java" />
         <option value="$PROJECT_DIR$/src/com/mcg/aopdemo/DemoConfig.java" />
-        <option value="$PROJECT_DIR$/src/com/mcg/aopdemo/dao/MembershipDAO.java" />
         <option value="$PROJECT_DIR$/src/com/mcg/aopdemo/Account.java" />
-        <option value="$PROJECT_DIR$/src/com/mcg/aopdemo/MainDemoApp.java" />
         <option value="$PROJECT_DIR$/src/com/mcg/aopdemo/aspect/MyDemoLoggingAspect.java" />
         <option value="$PROJECT_DIR$/src/com/mcg/aopdemo/dao/AccountDAO.java" />
+        <option value="$PROJECT_DIR$/src/com/mcg/aopdemo/dao/MembershipDAO.java" />
+        <option value="$PROJECT_DIR$/src/com/mcg/aopdemo/MainDemoApp.java" />
       </list>
     </option>
   </component>
@@ -310,7 +310,7 @@
       <option name="presentableId" value="Default" />
       <updated>1558774735368</updated>
       <workItem from="1558774745268" duration="13413000" />
-      <workItem from="1559308668649" duration="8783000" />
+      <workItem from="1559308668649" duration="9544000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1558778290198</created>
@@ -410,17 +410,31 @@
       <option name="project" value="LOCAL" />
       <updated>1559319313621</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Pointcut expressions with Parameter types.">
+      <created>1559320308398</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1559320308398</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Pointcut expressions with Parameter types(v2).">
+      <created>1559320635050</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1559320635050</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22196000" />
+    <option name="totallyTimeSpent" value="22957000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="686" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25378788" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25378788" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -429,7 +443,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924242" visible="true" weight="0.3303411" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924242" visible="true" weight="0.3303411" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -472,7 +486,9 @@
     <MESSAGE value="Adding properties file and injecting values." />
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Some pointcut expressions tested." />
-    <option name="LAST_COMMIT_MESSAGE" value="Some pointcut expressions tested." />
+    <MESSAGE value="Pointcut expressions with Parameter types." />
+    <MESSAGE value="Pointcut expressions with Parameter types(v2)." />
+    <option name="LAST_COMMIT_MESSAGE" value="Pointcut expressions with Parameter types(v2)." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/applicationContext.xml">
@@ -587,13 +603,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mcg/aopdemo/dao/MembershipDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mcg/aopdemo/Account.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -620,10 +629,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mcg/aopdemo/MainDemoApp.java">
+    <entry file="file://$PROJECT_DIR$/src/com/mcg/aopdemo/dao/AccountDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        <state relative-caret-position="285">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -632,18 +641,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mcg/aopdemo/aspect/MyDemoLoggingAspect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="14" column="69" selection-start-line="14" selection-start-column="69" selection-end-line="14" selection-end-column="69" />
+        <state relative-caret-position="213">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mcg/aopdemo/dao/AccountDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/com/mcg/aopdemo/dao/MembershipDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+        <state relative-caret-position="240">
+          <caret line="16" column="68" selection-start-line="16" selection-start-column="68" selection-end-line="16" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mcg/aopdemo/MainDemoApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
